@@ -499,8 +499,6 @@ class Jeremys_Friend_CPT {
 						'ID'     				=> $post_id,
 						'post_status'   =>  'private'
 					);
-					
-          echo 'blah';
 					wp_update_post( $this_post );
 				}
 			}
